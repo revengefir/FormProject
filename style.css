@@ -21,6 +21,10 @@ h1{
 }
 input:not([type=radio]){
     margin-left: 5px;
+    margin-top: 2px;
+}
+input[type=radio]{
+    margin-top: 5px;
 }
 #reg{
     background-color: rgb(6, 106, 117);
@@ -28,6 +32,27 @@ input:not([type=radio]){
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-top: 15px;
+    font-size: 20px;
+}
+span{
+    margin-top: 50px;
+}
+.gender{
     margin-top: 10px;
-    font-size: 15px;
+}
+.country{
+    margin-top: 5px;
+}
+.login{
+    margin-top: -10px;
+}
+.email{
+    margin-top: 10px;
+}
+.pass{
+    margin-top: 10px;
+}
+.retry{
+    margin-top: 10px;
 }
